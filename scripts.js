@@ -38,7 +38,7 @@ request.onload = function(){
             h2.textContent = movie.title;
 
             const director = document.createElement('small');
-            director.textContent = `-- ${movie.director} --`;
+            director.textContent = `### ${movie.director} ###`;
 
             const cardBody =document.createElement('div');
             cardBody.setAttribute('class','card_body');
